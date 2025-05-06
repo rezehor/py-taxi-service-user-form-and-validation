@@ -50,4 +50,3 @@ class CarCreationForm(forms.ModelForm):
         widgets = {
             "drivers": forms.CheckboxSelectMultiple()
         }
-
